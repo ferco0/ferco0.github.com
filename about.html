@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Fernando Costa</title>
+    <meta name="description" content="Público">
+	<meta name="author" content="Fernando Costa">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<style>
+		html,body{
+			margin: 0;
+			background-color: #000;
+			color: #fff;
+			font-family: sans-serif;
+			font-size: 1.6rem;
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+
+		a {
+			text-decoration: none;
+			color: #c8d4d3;
+			-webkit-transition: 1s;
+					transition: 1s;
+		}
+
+		a:hover{
+			color: #fff;
+		}
+
+		h1,h2,h3,h4,h5{
+			margin-bottom: 0px;
+		}
+
+		p{
+			margin: 5px 0 10px;
+			color:#ccc;
+			font-size: .8rem;
+		}
+
+		.logo{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -108.5px;
+			margin-left: -135.5px;
+			width: 271px;
+			height: 217px;
+		}
+
+		.logo .logo-frame{
+			width: 271px;
+			height: 217px;
+			position: absolute;
+			top:0;
+			left:0;
+			background-size: 271px 217px;
+			-webkit-animation: opacityLogoFrameA 20s linear 0s infinite alternate;
+				animation: opacityLogoFrameA 20s linear 0s infinite alternate;
+		}
+
+		@-webkit-keyframes opacityLogoFrameA {
+			0% {opacity: 1;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@-webkit-keyframes opacityLogoFrameB {
+			0% {opacity: 0;}
+			20% {opacity: 1;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@-webkit-keyframes opacityLogoFrameC {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 1;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@-webkit-keyframes opacityLogoFrameD {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 1;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@-webkit-keyframes opacityLogoFrameE {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 1;}
+			100% {opacity: 0;}
+		}
+
+		@-webkit-keyframes opacityLogoFrameF {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 1;}
+		}
+
+		@keyframes opacityLogoFrameA {
+			0% {opacity: 1;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@keyframes opacityLogoFrameB {
+			0% {opacity: 0;}
+			20% {opacity: 1;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@keyframes opacityLogoFrameC {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 1;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@keyframes opacityLogoFrameD {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 1;}
+			80% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		@keyframes opacityLogoFrameE {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 1;}
+			100% {opacity: 0;}
+		}
+
+		@keyframes opacityLogoFrameF {
+			0% {opacity: 0;}
+			20% {opacity: 0;}
+			40% {opacity: 0;}
+			60% {opacity: 0;}
+			80% {opacity: 0;}
+			100% {opacity: 1;}
+		}
+
+		.logo .frame-0{
+			background-image: url(frames/0.png);
+		}
+		.logo .frame-1{
+			-webkit-animation-name: opacityLogoFrameB;
+				animation-name: opacityLogoFrameB;
+			background-image: url(frames/1.png);
+		}
+		.logo .frame-2{
+			-webkit-animation-name: opacityLogoFrameC;
+				animation-name: opacityLogoFrameC;
+			background-image: url(frames/2.png);
+		}
+		.logo .frame-3{
+			-webkit-animation-name: opacityLogoFrameD;
+				animation-name: opacityLogoFrameD;
+			background-image: url(frames/3.png);
+		}
+		.logo .frame-4{
+			-webkit-animation-name: opacityLogoFrameE;
+				animation-name: opacityLogoFrameE;
+			background-image: url(frames/4.png);
+		}
+
+		.logo .frame-5{
+			-webkit-animation-name: opacityLogoFrameF;
+				animation-name: opacityLogoFrameF;
+			background-image: url(frames/1.png);
+		}
+
+		.title{
+			position: absolute;
+			text-indent: -9999px;
+		}
+
+		.header{
+			position: relative;
+			top: 0;left: 0;
+			width: 100%;height: 80%;
+		}
+
+		.header .nav{
+			position: absolute;
+			width: 300px;
+			left:50%;
+			bottom: 40px;
+			margin-left: -150px;
+		}
+
+		.nav .nav-content{
+			margin:10px;
+			padding: 0;
+			font-size: 2rem;
+			list-style: none;
+		}
+
+		.nav-content .nav-item{
+			padding: 2.5px 0;
+		}
+
+		.section{
+			width: 80%;
+			margin: 0 auto;
+			padding: 40px 0;
+		}
+		@media screen and (min-width: 1000px){
+			.logo{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -51px;
+				margin-left: -63.5px;
+				width: 127px;
+				height: 102px;
+			}
+
+			.logo .logo-frame{
+				width: 127px;
+				height: 102px;
+				background-size: 127px 102px;
+			}
+
+			.nav .nav-content{
+				font-size: 1rem;
+			}
+
+			.header{
+				height: 70%;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<div class="logo">
+			<div class="logo-frame frame-0"></div>
+			<div class="logo-frame frame-1"></div>
+			<div class="logo-frame frame-2"></div>
+			<div class="logo-frame frame-3"></div>
+			<div class="logo-frame frame-4"></div>
+			<div class="logo-frame frame-5"></div>
+		</div>
+
+		<h1 class="title">FERCO</h1>
+
+		<nav class="nav">
+			<ul class="nav-content">
+				<li class="nav-item"><a href="./index.html">init</a></li>
+				<li class="nav-item">about</li>
+				<li class="nav-item"><a href="./labor.html">labor</a></li>
+				<li class="nav-item">f | i @ferco0 <a href="mailto:ferco0@live.com">@live.com</a></li>
+				<li class="nav-item locale">reside mcz</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="section">
+		<h2>about</h2>
+		<p>
+			Born jun/94 day 13, think, curious.
+			<br>
+			<span style="font-size:.7rem">At 2018 | </span><span style="font-size:.7rem;color:#ccc">Programming, Designing, Creating</span>
+		</p>
+	</section>
+</body>
+</html>
